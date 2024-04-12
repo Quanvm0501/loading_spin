@@ -17,4 +17,5 @@ def loading_spin(text: str, times):
 
 if __name__ == "__main__":
 	tmp = loading_spin("Text", 10)
-	print("Finished!") if tmp == True else raise Loading_Failed("Loading Spin Text Failed!")
+	if tmp == True: print("Finished!")
+	else: raise Loading_Failed("Loading Spin Test Failed!")
