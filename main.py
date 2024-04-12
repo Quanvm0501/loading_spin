@@ -1,4 +1,3 @@
-import loading_text
 class Error(Exception):
 	pass
 
