@@ -8,4 +8,4 @@ def loading_spin(text: str, times):
 	print(text,"\r", end = " ")
 	print(text,"\r", end = "")
 if __name__ == "__main__":
-	loading_spin("Text", 10
+	loading_spin("Text", 10)
